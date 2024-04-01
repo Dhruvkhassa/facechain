@@ -22,7 +22,7 @@
 如果您熟悉中文，可以阅读[中文版本的README](./README_ZH.md)。
 
 FaceChain is a novel framework for generating identity-preserved human portraits. In the newest FaceChain FACT (Face Adapter with deCoupled Training) version, with only 1 photo and 10 seconds, you can generate personal portraits in different settings (multiple styles now supported!). FaceChain has both high controllability and authenticity in portrait generation, including text-to-image and inpainting based pipelines, and is seamlessly compatible with ControlNet and LoRAs. You may generate portraits via FaceChain's Python scripts, or via the familiar Gradio interface, or via sd webui. 
-FaceChain is powered by [ModelScope](https://github.com/modelscope/modelscope).
+FaceChain is powered by [ModelScope](https://github.com/Dhruvkhassa/facechain).
 
 
 <p align="center">
@@ -125,7 +125,7 @@ The following installation methods are supported:
 # Note: Please use: ubuntu20.04-py38-torch2.0.1-tf1.15.5-modelscope1.8.1
 
 # Step2: Entry the Notebook cell，clone FaceChain from github:
-!GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/modelscope/facechain.git --depth 1
+!GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/Dhruvkhassa/facechain --depth 1
 
 # Step3: Change the working directory to facechain, and install the dependencies:
 import os
@@ -177,7 +177,7 @@ pip3 install modelscope -U
 pip3 install datasets==2.16
 
 # Step5 clone facechain from github
-GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/modelscope/facechain.git --depth 1
+GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/Dhruvkhassa/facechain --depth 1
 cd facechain
 python3 app.py
 # Note: FaceChain currently assume single-GPU, if your environment has multiple GPU, please use the following instead:
